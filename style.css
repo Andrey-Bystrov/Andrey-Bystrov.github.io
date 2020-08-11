@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 body {
     font-family: Roboto, sans-serif;
 }
@@ -47,10 +48,36 @@ body {
     height: 76px;
 }
 
+.specialty {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.age {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+}
+.from {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
 .line-base-ifo {
     width: 284px;
     height: 0px;    
     border: 1px solid #969696;
+    margin-top: 62px;
+    margin-bottom: 67px;
 }
 
 .contacts {
@@ -59,10 +86,39 @@ body {
     flex-direction: column;
     justify-content: space-between;
     border: 1px solid gray;
-    font-family: Roboto;
-    font-size: 18px;
-    
 
+}
+
+.txt-mail {
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    align-items: center;  
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.txt-phone {
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    align-items: center; 
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.txt-teleg {
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    align-items: center;  
+    margin: 0;
 }
 
 .img-contacts {
@@ -94,6 +150,16 @@ body {
 }
 
 .txt-heading {
+    margin-left: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.txt-heading-list {
+    margin-left: 0;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -102,31 +168,42 @@ body {
 }
 
 .txt-contant-about-me {
+    margin-bottom: 0;
+    margin-left: 25px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.txt-heading-me {
+    margin-bottom: 0;
+    margin-left: 25px;
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
 }
 
 .about-me {
-    width: 716px;
-    height: 298px;
+    width: 741px;
+    height: 371px;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
     border: 1px solid gray;
-    padding: 71px 73px 0px 72px;
+    padding: 71px 73px 0px 47px;
     margin-bottom: 14px;
 }
 
 .professional-skills {
-    width: 716px;
+    width: 741px;
     height: 158px;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
     border: 1px solid gray;
     margin-bottom: 14px;
-    padding: 71px 73px 0px 72px;
+    padding: 47px 73px 0px 47px;
 }
 
 .work-expierence {
@@ -137,7 +214,7 @@ body {
     border-radius: 12px;
     border: 1px solid gray;
     margin-bottom: 14px;
-    padding: 62px 73px 0px 72px;
+    padding: 62px 98px 0px 47px;
 }
 
 .education {
@@ -148,32 +225,33 @@ body {
     border-radius: 12px;
     border: 1px solid gray;
     margin-bottom: 14px;
-    padding: 62px 73px 0px 72px;
+    padding: 62px 98px 0px 47px;
 }
 .languages {
-    width: 716px;
-    height: 232px;
+    width: 775px;
+    height: 256px;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
     border: 1px solid gray;
     margin-bottom: 14px;
-    padding: 71px 73px 0px 72px;
+    padding: 47px 39px 0px 47px;
 }
 
 .hobby {
-    width: 716px;
-    height: 173px;
+    width: 748px;
+    height: 199px;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
     border: 1px solid gray;
     margin-bottom: 14px;
-    padding: 71px 73px 0px 72px;
+    padding: 43px 66px 0px 47px;
 }
 
 .hobby-list {
-    margin: 0;
+    height: 44px;
+    margin-left: 25px;
     display: flex;
     flex-direction: row;
 }
@@ -191,10 +269,13 @@ body {
     background-color: #233558;
     margin-right: 26px;
     border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .hobby-list-sport {
-    margin-right: 0;    
+    margin-right: 0; 
+    margin-top: 0;   
     width: 147px;
     height: 44px;
     font-family: Roboto;
@@ -207,4 +288,612 @@ body {
     background-color: #233558;
     margin-right: 0px;
     border-radius: 10px;
+}
+
+.block-expierence {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.img-square {
+    margin-left: 30px;
+    margin-right: 34px;
+    width: 96px;
+    height: 96px;
+}
+
+.work-description {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.description-txt {
+    width: 581px;
+    height: 272px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 160px;
+}
+
+.big-line {
+    width: 754px;
+    border: 1px solid #969696;
+    margin-top: 69px;
+    margin-bottom: 89px;
+    margin-right: 0;
+}
+
+.period {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;  
+}
+
+.lang-blocks {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.lang-block {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    width: 206px;
+    height: 98px;
+    background: #E7E7E7;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 17px;
+    margin-right: 27px;
+}
+
+.img-flag {
+    margin-right: 11px;
+    width: 50px;
+    height: 29px;
+}
+
+.txt-lang {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: 129px;
+    height: 61px;
+
+}
+
+.txt-lang-name {
+    margin: 0;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.block-info {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+    .base-container {
+        margin: 0 auto;
+        width: 992px;
+        padding-top: 28px;
+        padding-left: 28px;
+        border: 1px solid gray;
+        display: flex;
+        background-color: #EEEEEE;
+        flex-direction: column;
+
+    }
+
+    .base-info {
+        width: 826px;
+        height: 530px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start ;
+        padding: 71px 0px 0px 96px;
+        margin-right: 0px;
+        margin-bottom: 14px;
+        flex-wrap: wrap;
+    }
+
+    .foto {
+        width: 279px;
+        height: 279px;
+    }
+
+    .name {
+        width: 349px;
+        height: 38px;
+        margin-top: 0;
+        margin-bottom: 18px;
+        text-align: left;
+    }
+
+    .specialty {
+        margin-top: 0;
+        margin-bottom: 11px;
+    }
+    
+    .age {
+        margin-top: 0;
+        margin-bottom: 14px;
+    }
+    .from {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .line-base-ifo {
+        margin-top: 36px;
+        margin-left: 0;
+        margin-bottom: 36px;
+    }
+    
+    .contacts {
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid gray;
+    
+    }
+    
+    .txt-mail {
+        margin-bottom: 34px;
+    }
+    
+    .txt-phone {
+        margin-bottom: 34px;
+    }
+    
+    .txt-teleg {
+        height: 24px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        align-items: center;  
+        margin: 0;
+    }
+    .block-info {
+        margin-top: 56px;
+        margin-left: 89px;
+        justify-content: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .button-letter {
+        width: 218px;
+        margin-top: 0px; 
+        margin-left: 31px;
+        position: relative;
+        bottom: 72px;
+    }
+
+    .about-me {
+        width: 792px;
+        height: 371px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        padding: 71px 78px 0px 52px;
+        margin-bottom: 14px;
+    }
+
+    .professional-skills {
+        width: 797px;
+        height: 158px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        margin-bottom: 14px;
+        padding: 47px 73px 0px 52px;
+    }
+
+    .work-expierence {
+        width: 806px;
+        height: 1075px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        margin-bottom: 14px;
+        padding: 62px 64px 0px 52px;
+    }
+
+    .big-line {
+        width: 806px;
+        border: 1px solid #969696;
+        margin-top: 53px;
+        margin-bottom: 89px;
+        margin-left: 0;
+    }
+
+    .description-txt {
+        width: 622px;
+        height: 272px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 170px;
+        margin-right: 0;
+    }
+
+    .education {
+        width: 806px;
+        height: 952px; 
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        margin-bottom: 14px;
+        padding: 62px 64px 0px 52px;
+    }
+
+    .img-square {
+        margin-left: 30px;
+        margin-right: 37px;
+        width: 103px;
+        height: 96px;
+    }
+
+    .languages {
+        width: 831px;
+        height: 256px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        margin-bottom: 14px;
+        padding: 47px 39px 0px 52px;
+    }
+
+    .lang-block {
+        display: flex;
+        flex-direction: row;
+        border: 1px solid gray;
+        width: 222px;
+        height: 98px;
+        background: #E7E7E7;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-left: 17px;
+        margin-right: 29px;
+    }
+
+    .hobby {
+        width: 804px;
+        height: 199px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        margin-bottom: 14px;
+        padding: 43px 66px 0px 52px;
+    }
+
+    .hobby-list-txt {
+        width: 178px;
+        height: 44px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44px;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        background-color: #233558;
+        margin-right: 28px;
+        border-radius: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .hobby-list-sport {
+        margin-right: 0; 
+        margin-top: 0;   
+        width: 157px;
+        height: 44px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44px;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        background-color: #233558;
+        margin-right: 0px;
+        border-radius: 10px;
+    }
+
+
+}
+
+@media screen and (min-width: 340px) and (max-width: 991px) {
+    .base-container {
+        margin: 0 auto;
+        width: 768px;
+        padding-top: 28px;
+        padding-left: 28px;
+        border: 1px solid gray;
+        display: flex;
+        background-color: #EEEEEE;
+        flex-direction: column;
+
+    }
+
+    .base-info {
+        width: 708px;
+        height: 1090px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 71px 0px 0px 0px;
+        margin-right: 0px;
+        margin-bottom: 14px;
+    }
+
+    .foto {
+        width: 279px;
+        height: 279px;
+    }
+
+    .name {
+        width: 349px;
+        height: 38px;
+        margin-top: 0;
+        margin-bottom: 18px;
+
+    }
+
+    .specialty {
+        margin-top: 0;
+        margin-bottom: 11px;
+    }
+    
+    .age {
+        margin-top: 0;
+        margin-bottom: 14px;
+    }
+    .from {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .line-base-ifo {
+        margin-top: 36px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 36px;
+    }
+    
+    .contacts {
+        width: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid gray;
+    
+    }
+    
+    .txt-mail {
+        margin-bottom: 34px;
+    }
+    
+    .txt-phone {
+        margin-bottom: 34px;
+    }
+    
+    .txt-teleg {
+        height: 24px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        align-items: center;  
+        margin: 0;
+    }
+    
+    .block-info {
+        margin-top: 56px;
+        margin-left: 0;
+        justify-content: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .button-letter {
+        width: 218px;
+        margin-top: 0px; 
+        margin-left: 0px;
+        bottom: 72px;
+    }
+
+    .about-me {
+        width: 589px;
+        height: 371px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        padding: 71px 59px 0px 60px;
+        margin-bottom: 14px;
+    }
+
+    .professional-skills {
+        width: 588px;
+        height: 158px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        margin-bottom: 14px;
+        padding: 47px 60px 0px 60px;
+    }
+
+    .work-expierence {
+        width: 613px;
+        height: 1330px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        margin-bottom: 14px;
+        padding: 62px 60px 0px 35px;
+    }
+
+    .big-line {
+        width: 588px;
+        border: 1px solid #969696;
+        margin-top: 53px;
+        margin-bottom: 89px;
+        margin-left: 0;
+    }
+
+    .description-txt {
+        width: 426px;
+        height: 384px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 170px;
+        margin-right: 0;
+    }
+
+    .education {
+        width: 613px;
+        height: 1135px; 
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        margin-bottom: 14px;
+        padding: 62px 60px 0px 35px;
+    }
+
+    .img-square {
+        margin-left: 30px;
+        margin-right: 37px;
+        width: 103px;
+        height: 96px;
+    }
+
+    .languages {
+        width: 617px;
+        height: 445px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        margin-bottom: 14px;
+        padding: 47px 39px 0px 52px;
+    }
+
+    .lang-block {
+        display: flex;
+        flex-direction: row;
+        flex-direction: wrap;
+        border: 1px solid gray;
+        width: 222px;
+        height: 98px;
+        background: #E7E7E7;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-left: 17px;
+        margin-right: 29px;
+        margin-bottom:17px;
+    }
+
+    .lang-blocks {
+        margin-left: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+    }
+
+    .hobby {
+        width: 590px;
+        height: 283px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        border: 1px solid gray;
+        margin-bottom: 14px;
+        padding: 43px 66px 0px 52px;
+    }
+
+    .hobby-list-txt {
+        width: 178px;
+        height: 44px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44px;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        background-color: #233558;
+        margin-right: 28px;
+        border-radius: 10px;
+        margin-top: 0;
+        margin-bottom: 28px;
+    }
+    
+    .hobby-list-sport {
+        margin-right: 0; 
+        margin-top: 0;   
+        width: 178px;
+        height: 44px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44px;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        background-color: #233558;
+        border-radius: 10px;
+    }
+
+    .hobby-list {
+        height: 44px;
+        margin-left: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
 }
