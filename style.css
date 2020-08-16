@@ -7,10 +7,9 @@ body {
 
 .base-container {
     margin: 0 auto;
-    width: 1280px;
+    width: 1252px;
     padding-top: 28px;
     padding-left: 28px;
-    border: 1px solid gray;
     display: flex;
     background-color: #EEEEEE;
 }
@@ -21,7 +20,6 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
-    border: 1px solid gray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,7 +83,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid gray;
 
 }
 
@@ -143,8 +140,6 @@ body {
     
 }
 .all-about-me {
-    width: 865;
-    border: 1px solid gray;
     display: flex;
     flex-direction: column;
 }
@@ -190,7 +185,6 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
-    border: 1px solid gray;
     padding: 71px 73px 0px 47px;
     margin-bottom: 14px;
 }
@@ -201,7 +195,6 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
-    border: 1px solid gray;
     margin-bottom: 14px;
     padding: 47px 73px 0px 47px;
 }
@@ -212,7 +205,6 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
-    border: 1px solid gray;
     margin-bottom: 14px;
     padding: 62px 98px 0px 47px;
 }
@@ -223,7 +215,6 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
-    border: 1px solid gray;
     margin-bottom: 14px;
     padding: 62px 98px 0px 47px;
 }
@@ -233,7 +224,6 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
-    border: 1px solid gray;
     margin-bottom: 14px;
     padding: 47px 39px 0px 47px;
 }
@@ -244,7 +234,6 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
-    border: 1px solid gray;
     margin-bottom: 14px;
     padding: 43px 66px 0px 47px;
 }
@@ -346,7 +335,6 @@ body {
 .lang-block {
     display: flex;
     flex-direction: row;
-    border: 1px solid gray;
     width: 206px;
     height: 98px;
     background: #E7E7E7;
@@ -379,7 +367,6 @@ body {
 }
 
 .block-info {
-    border: 1px solid gray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -388,10 +375,9 @@ body {
 @media screen and (min-width: 992px) and (max-width: 1280px) {
     .base-container {
         margin: 0 auto;
-        width: 992px;
+        width: 963px;
         padding-top: 28px;
-        padding-left: 28px;
-        border: 1px solid gray;
+        padding-left: 35px;
         display: flex;
         background-color: #EEEEEE;
         flex-direction: column;
@@ -404,7 +390,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         display: flex;
         flex-direction: row;
         align-items: flex-start ;
@@ -451,9 +436,7 @@ body {
         width: 240px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        border: 1px solid gray;
-    
+        justify-content: space-between;    
     }
     
     .txt-mail {
@@ -495,7 +478,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         padding: 71px 78px 0px 52px;
         margin-bottom: 14px;
     }
@@ -506,7 +488,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         margin-bottom: 14px;
         padding: 47px 73px 0px 52px;
     }
@@ -517,7 +498,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         margin-bottom: 14px;
         padding: 62px 64px 0px 52px;
     }
@@ -548,7 +528,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         margin-bottom: 14px;
         padding: 62px 64px 0px 52px;
     }
@@ -566,7 +545,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         margin-bottom: 14px;
         padding: 47px 39px 0px 52px;
     }
@@ -574,7 +552,6 @@ body {
     .lang-block {
         display: flex;
         flex-direction: row;
-        border: 1px solid gray;
         width: 222px;
         height: 98px;
         background: #E7E7E7;
@@ -590,7 +567,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         margin-bottom: 14px;
         padding: 43px 66px 0px 52px;
     }
@@ -635,10 +611,9 @@ body {
 @media screen and (min-width: 340px) and (max-width: 991px) {
     .base-container {
         margin: 0 auto;
-        width: 768px;
-        padding-top: 28px;
-        padding-left: 28px;
-        border: 1px solid gray;
+        width: 738px;
+        padding-top: 30px;
+        padding-left: 30px;
         display: flex;
         background-color: #EEEEEE;
         flex-direction: column;
@@ -647,68 +622,72 @@ body {
 
     .base-info {
         width: 708px;
-        height: 1090px;
+        height: 995px;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        padding: 71px 0px 0px 0px;
+        padding: 95px 0px 0px 0px;
         margin-right: 0px;
         margin-bottom: 14px;
     }
 
     .foto {
-        width: 279px;
-        height: 279px;
+        width: 302px;
+        height: 302px;
     }
 
     .name {
         width: 349px;
-        height: 38px;
+        height: 45px;
         margin-top: 0;
-        margin-bottom: 18px;
+        margin-bottom: 31px;
+        font-size: 38px;
 
     }
 
     .specialty {
         margin-top: 0;
-        margin-bottom: 11px;
+        margin-bottom: 16px;
+        font-size: 24px;
     }
     
     .age {
         margin-top: 0;
-        margin-bottom: 14px;
+        margin-bottom: 19px;
+        font-size: 24px;
     }
     .from {
         margin-top: 0;
         margin-bottom: 0;
+        font-size: 24px;
     }
 
     .line-base-ifo {
-        margin-top: 36px;
+        margin-top: 69px;
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 36px;
+        margin-bottom: 44px;
     }
     
     .contacts {
-        width: 240px;
+        width: 284px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        border: 1px solid gray;
-    
+        justify-content: space-between;    
     }
     
     .txt-mail {
+        height: 24px;
         margin-bottom: 34px;
+        font-size: 22px;
     }
     
     .txt-phone {
+        height: 24px;
         margin-bottom: 34px;
+        font-size: 22px;
     }
     
     .txt-teleg {
@@ -716,24 +695,25 @@ body {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 22px;
         align-items: center;  
         margin: 0;
     }
     
     .block-info {
-        margin-top: 56px;
+        margin-top: 37px;
         margin-left: 0;
-        justify-content: 0;
         flex-direction: column;
-        justify-content: center;
+                
     }
 
     .button-letter {
-        width: 218px;
-        margin-top: 0px; 
+        width: 250px;
+        height: 57px;
+        line-height: 57px;
+        border-radius: 40px;
+        margin-top: 75px; 
         margin-left: 0px;
-        bottom: 72px;
     }
 
     .about-me {
@@ -742,7 +722,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         padding: 71px 59px 0px 60px;
         margin-bottom: 14px;
     }
@@ -753,7 +732,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         margin-bottom: 14px;
         padding: 47px 60px 0px 60px;
     }
@@ -764,7 +742,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         margin-bottom: 14px;
         padding: 62px 60px 0px 35px;
     }
@@ -795,7 +772,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         margin-bottom: 14px;
         padding: 62px 60px 0px 35px;
     }
@@ -813,7 +789,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         margin-bottom: 14px;
         padding: 47px 39px 0px 52px;
     }
@@ -848,7 +823,6 @@ body {
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        border: 1px solid gray;
         margin-bottom: 14px;
         padding: 43px 66px 0px 52px;
     }
@@ -871,7 +845,7 @@ body {
     }
     
     .hobby-list-sport {
-        margin-right: 0; 
+        margin-right: 28px; 
         margin-top: 0;   
         width: 178px;
         height: 44px;
