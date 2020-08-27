@@ -885,7 +885,7 @@ body {
     .base-container {
         margin: 0 auto;
         width: 100%;
-        padding-top: 30px;
+        padding-top: 3px;
         padding-left: 0;
         display: flex;
         background-color: #EEEEEE;
@@ -909,7 +909,7 @@ body {
     }
 
     .all-about-me {
-        width: 89%;
+        width: 98%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1000,37 +1000,37 @@ body {
     }
 
     .about-me {
-        width: 81%;
+        width: 100%;
         height: 70%;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        padding: 71px 59px 0px 35px;
+        padding: 20px 0px 0px 0px;
         margin-bottom: 14px;
     }
 
     .professional-skills {
-        width: 81%;
+        width: 100%;
         height: 70%;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
         margin-bottom: 14px;
-        padding: 47px 60px 0px 35px;
+        padding: 20px 0px 0px 0px;
     }
 
     .work-expierence {
-        width: 81%;
+        width: 100%;
         height: 130%;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
         margin-bottom: 14px;
-        padding: 62px 60px 0px 35px;
+        padding: 20px 0px 0px 0px;
     }
 
     .big-line {
-        width: 95%;
+        width: 85%;
         border: 1px solid #969696;
         margin-top: 53px;
         margin-bottom: 89px;
@@ -1038,26 +1038,26 @@ body {
     }
 
     .description-txt {
-        width: 50%;
+        width: 80%;
         height: 70%;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
         font-size: 18px;
         line-height: 24px;
-        margin-left: 170px;
+        margin-left: 30px;
         margin-right: 0;
         margin-bottom: 50px;
     }
 
     .education {
-        width: 81%;
+        width: 100%;
         height: 110%;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
         margin-bottom: 14px;
-        padding: 62px 60px 0px 35px;
+        padding: 20px 0px 0px 0px;
     }
 
     .img-square {
@@ -1068,13 +1068,13 @@ body {
     }
 
     .languages {
-        width: 81%;
+        width: 100%;
         height: 70%;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
         margin-bottom: 14px;
-        padding: 47px 39px 0px 52px;
+        padding: 20px 0px 0px 0px;
     }
 
     .lang-block {
@@ -1087,7 +1087,7 @@ body {
         padding-top: 20px;
         padding-left: 17px;
         margin-right: 29px;
-        margin-bottom:50px;
+        margin-bottom: 30px;
     }
 
     .lang-blocks {
@@ -1096,17 +1096,17 @@ body {
         flex-direction: row;
         justify-content: center;
         flex-wrap: wrap;
-    
+        margin-bottom: 20px;   
     }
 
     .hobby {
-        width: 81%;
-        height: 283px;
+        width: 100%;
+        height: 70%;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
         margin-bottom: 14px;
-        padding: 43px 40px 0px 52px;
+        padding: 20px 0px 0px 0px;
     }
 
     .hobby-list-txt {
@@ -1143,8 +1143,9 @@ body {
     }
 
     .hobby-list {
-        height: 44px;
+        height: 70%;
         margin-left: 25px;
+        margin-bottom: 20px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -1154,9 +1155,20 @@ body {
     .txt-heading-me {
         margin-bottom: 50px;
         margin-left: 25px;
+        margin-right: 20px;
         font-family: Roboto;
         font-size: 18px;
         font-style: normal;
+    }
+
+    .txt-contant-about-me {
+        margin-right: 20px;
+        margin-left: 25px;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 60px;
     }
 
 }
