@@ -169,6 +169,7 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
+    margin-bottom: 60px;
 }
 
 .txt-heading-me {
@@ -353,9 +354,8 @@ body {
 .txt-lang {
     display: flex;
     flex-direction: column;
-    border: 1px solid gray;
     width: 129px;
-    height: 61px;
+    height: 61px;   
 
 }
 
@@ -375,12 +375,14 @@ body {
 @media screen and (min-width: 992px) and (max-width: 1280px) {
     .base-container {
         margin: 0 auto;
-        width: 963px;
+        width: 100%;
         padding-top: 28px;
         padding-left: 35px;
         display: flex;
         background-color: #EEEEEE;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
     }
 
@@ -459,7 +461,6 @@ body {
     .block-info {
         margin-top: 56px;
         margin-left: 89px;
-        justify-content: 0;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -611,17 +612,19 @@ body {
 @media screen and (min-width: 340px) and (max-width: 991px) {
     .base-container {
         margin: 0 auto;
-        width: 738px;
+        width: 100%;
         padding-top: 30px;
         padding-left: 30px;
         display: flex;
         background-color: #EEEEEE;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
     }
 
     .base-info {
-        width: 708px;
+        width: 74%;
         height: 995px;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
@@ -631,6 +634,13 @@ body {
         padding: 95px 0px 0px 0px;
         margin-right: 0px;
         margin-bottom: 14px;
+    }
+
+    .all-about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .foto {
@@ -717,28 +727,28 @@ body {
     }
 
     .about-me {
-        width: 589px;
-        height: 371px;
+        width: 64%;
+        height: 70%;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
-        padding: 71px 59px 0px 60px;
+        padding: 71px 59px 0px 35px;
         margin-bottom: 14px;
     }
 
     .professional-skills {
-        width: 588px;
+        width: 64%;
         height: 158px;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
         margin-bottom: 14px;
-        padding: 47px 60px 0px 60px;
+        padding: 47px 60px 0px 35px;
     }
 
     .work-expierence {
-        width: 613px;
-        height: 1330px;
+        width: 64%;
+        height: 130%;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
@@ -747,16 +757,16 @@ body {
     }
 
     .big-line {
-        width: 588px;
+        width: 95%;
         border: 1px solid #969696;
         margin-top: 53px;
         margin-bottom: 89px;
-        margin-left: 0;
+        margin-left: 25px;
     }
 
     .description-txt {
-        width: 426px;
-        height: 384px;
+        width: 70%;
+        height: 70%;
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -764,11 +774,12 @@ body {
         line-height: 24px;
         margin-left: 170px;
         margin-right: 0;
+        margin-bottom: 50px;
     }
 
     .education {
-        width: 613px;
-        height: 1135px; 
+        width: 64%;
+        height: 110%;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
@@ -784,8 +795,8 @@ body {
     }
 
     .languages {
-        width: 617px;
-        height: 445px;
+        width: 64%;
+        height: 70%;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
@@ -795,9 +806,7 @@ body {
 
     .lang-block {
         display: flex;
-        flex-direction: row;
         flex-direction: wrap;
-        border: 1px solid gray;
         width: 222px;
         height: 98px;
         background: #E7E7E7;
@@ -805,7 +814,7 @@ body {
         padding-top: 20px;
         padding-left: 17px;
         margin-right: 29px;
-        margin-bottom:17px;
+        margin-bottom:50px;
     }
 
     .lang-blocks {
@@ -818,13 +827,13 @@ body {
     }
 
     .hobby {
-        width: 590px;
+        width: 64%;
         height: 283px;
         background: #FFFFFF;
         box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
         border-radius: 12px;
         margin-bottom: 14px;
-        padding: 43px 66px 0px 52px;
+        padding: 43px 40px 0px 52px;
     }
 
     .hobby-list-txt {
