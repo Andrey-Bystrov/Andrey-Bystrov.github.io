@@ -609,7 +609,7 @@ body {
 
 }
 
-@media screen and (min-width: 340px) and (max-width: 991px) {
+@media screen and (min-width: 700px) and (max-width: 991px) {
     .base-container {
         margin: 0 auto;
         width: 100%;
@@ -878,5 +878,285 @@ body {
         flex-wrap: wrap;
     }
 
+
+}
+
+@media screen and (min-width: 340px) and (max-width: 699px) {
+    .base-container {
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 0;
+        display: flex;
+        background-color: #EEEEEE;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .base-info {
+        width: 98%;
+        height: 995px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        padding: 95px 0px 0px 0px;
+        margin-right: 0px;
+        margin-bottom: 14px;
+    }
+
+    .all-about-me {
+        width: 89%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foto {
+        width: 302px;
+        height: 302px;
+    }
+
+    .name {
+        width: 349px;
+        height: 45px;
+        margin-top: 0;
+        margin-bottom: 31px;
+        font-size: 38px;
+
+    }
+
+    .specialty {
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-size: 24px;
+    }
+    
+    .age {
+        margin-top: 0;
+        margin-bottom: 19px;
+        font-size: 24px;
+    }
+    .from {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 24px;
+    }
+
+    .line-base-ifo {
+        margin-top: 69px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 44px;
+    }
+    
+    .contacts {
+        width: 284px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;    
+    }
+    
+    .txt-mail {
+        height: 24px;
+        margin-bottom: 34px;
+        font-size: 22px;
+    }
+    
+    .txt-phone {
+        height: 24px;
+        margin-bottom: 34px;
+        font-size: 22px;
+    }
+    
+    .txt-teleg {
+        height: 24px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        align-items: center;  
+        margin: 0;
+    }
+    
+    .block-info {
+        margin-top: 37px;
+        margin-left: 0;
+        flex-direction: column;
+                
+    }
+
+    .button-letter {
+        width: 250px;
+        height: 57px;
+        line-height: 57px;
+        border-radius: 40px;
+        margin-top: 75px; 
+        margin-left: 0px;
+    }
+
+    .about-me {
+        width: 81%;
+        height: 70%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        padding: 71px 59px 0px 35px;
+        margin-bottom: 14px;
+    }
+
+    .professional-skills {
+        width: 81%;
+        height: 70%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        margin-bottom: 14px;
+        padding: 47px 60px 0px 35px;
+    }
+
+    .work-expierence {
+        width: 81%;
+        height: 130%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        margin-bottom: 14px;
+        padding: 62px 60px 0px 35px;
+    }
+
+    .big-line {
+        width: 95%;
+        border: 1px solid #969696;
+        margin-top: 53px;
+        margin-bottom: 89px;
+        margin-left: 25px;
+    }
+
+    .description-txt {
+        width: 50%;
+        height: 70%;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        margin-left: 170px;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .education {
+        width: 81%;
+        height: 110%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        margin-bottom: 14px;
+        padding: 62px 60px 0px 35px;
+    }
+
+    .img-square {
+        margin-left: 30px;
+        margin-right: 37px;
+        width: 103px;
+        height: 96px;
+    }
+
+    .languages {
+        width: 81%;
+        height: 70%;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        margin-bottom: 14px;
+        padding: 47px 39px 0px 52px;
+    }
+
+    .lang-block {
+        display: flex;
+        flex-direction: wrap;
+        width: 222px;
+        height: 98px;
+        background: #E7E7E7;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-left: 17px;
+        margin-right: 29px;
+        margin-bottom:50px;
+    }
+
+    .lang-blocks {
+        margin-left: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+    }
+
+    .hobby {
+        width: 81%;
+        height: 283px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 12px;
+        margin-bottom: 14px;
+        padding: 43px 40px 0px 52px;
+    }
+
+    .hobby-list-txt {
+        width: 178px;
+        height: 44px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44px;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        background-color: #233558;
+        margin-right: 28px;
+        border-radius: 10px;
+        margin-top: 0;
+        margin-bottom: 28px;
+    }
+    
+    .hobby-list-sport {
+        margin-right: 28px; 
+        margin-top: 0;   
+        width: 178px;
+        height: 44px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44px;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+        background-color: #233558;
+        border-radius: 10px;
+    }
+
+    .hobby-list {
+        height: 44px;
+        margin-left: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .txt-heading-me {
+        margin-bottom: 50px;
+        margin-left: 25px;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+    }
 
 }
